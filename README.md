@@ -5,10 +5,9 @@ Adds some Styling options to Elemental Blocks.
 
 ## Requirements
 
-* SilverStripe CMS ^4.3
-* dnadesign/silverstripe-elemental ^4.0
+* dnadesign/silverstripe-elemental ^4 || ^5
 
-For a SilverStripe 4.2 and Elemental 3.x compatible version of this module, please see the [1.x release line](https://github.com/derralf/silverstripe-elemental-styling/tree/1.0#readme).
+For a SilverStripe 4.3 and Elemental 4.x compatible version of this module, please see the [2.x release line](https://github.com/derralf/silverstripe-elemental-styling/tree/2.00#readme).
 
 ## Installation
 
