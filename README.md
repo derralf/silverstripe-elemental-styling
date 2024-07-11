@@ -130,7 +130,10 @@ In your controller class like mysite/code/PageController.php:
 
 ```
 Requirements::css('derralf/elemental-styling:client/dist/styles/elemental_editlink.css');
+// based on jQuery
 Requirements::javascript('derralf/elemental-styling:client/dist/js/elemental_editlink.js');
+// non-jQuery
+Requirements::javascript('derralf/elemental-styling:client/dist/js/elemental_editlink_vanilla.js');
 ```
 
 
