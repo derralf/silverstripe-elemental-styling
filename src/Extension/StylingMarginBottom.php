@@ -37,7 +37,7 @@ class StylingMarginBottom extends DataExtension
         if (is_array($margin_bottom_values) && !empty($margin_bottom_values)) {
             $marginBottomDropdown = DropdownField::create('MarginBottom', _t(__CLASS__.'.MarginBottomLabel', 'margin bottom'), $margin_bottom_values);
             $marginBottomDropdown->setDescription(_t(__CLASS__.'.MarginBottomDescription', 'override margin bottom'));
-            $fields->insertBefore($marginBottomDropdown, 'ExtraClass');
+            $fields->insertBefore('ExtraClass', $marginBottomDropdown);
             $marginBottomDropdown->setEmptyString(_t(__CLASS__.'.MarginBottomEmptyString', 'Margin Bottom...'));
         } else {
             $fields->removeByName('MarginBottom');

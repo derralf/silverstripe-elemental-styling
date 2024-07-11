@@ -36,7 +36,7 @@ class StylingMarginTop extends DataExtension
         if (is_array($margin_top_values) && !empty($margin_top_values)) {
             $marginTopDropdown = DropdownField::create('MarginTop', _t(__CLASS__.'.MarginTopLabel', 'margin top'), $margin_top_values);
             $marginTopDropdown->setDescription(_t(__CLASS__.'.MarginTopDescription', 'override margin top'));
-            $fields->insertBefore($marginTopDropdown, 'ExtraClass');
+            $fields->insertBefore('ExtraClass', $marginTopDropdown);
             $marginTopDropdown->setEmptyString(_t(__CLASS__.'.MarginTopEmptyString', 'Margin Top...'));
         } else {
             $fields->removeByName('MarginTop');
